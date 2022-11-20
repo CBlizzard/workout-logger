@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { WorkoutsContext } from "../context/WorkoutsContext";
 
-export default function useWorkoutsContext(){
+export const useWorkoutsContext = ()=>{
     const context = useContext(WorkoutsContext)
 
     if(!context){

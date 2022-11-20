@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const workoutRoutes = require('./routes/workout');
+const userRoutes = require('./routes/user');
 const PORT = process.env.PORT || 8080;
 
 
@@ -17,6 +18,9 @@ app.use((req, res, next)=>{
 
 // routes
 app.use('/api/workouts', workoutRoutes)
+app.use('/api/user', userRoutes)
+
+
 
 // connect to DB
 mongoose.connect(process.env.MONGO_URI)
