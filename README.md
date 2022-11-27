@@ -13,7 +13,7 @@ from net ninja's YT course
 ## file structure
 
     server.js --> userRoute --> userController --> userModel
-            --> workRoute --> reqAuth middleware
+              --> workRoute --> reqAuth middleware
                             --> workController --> workModel
 
   
