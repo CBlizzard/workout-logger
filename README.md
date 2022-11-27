@@ -65,7 +65,7 @@ server.js --> userRoute --> userController --> userModel
 - run middlewares
 - send to routes
 - connect to DB
-  
+
 ---
 
 # Frontend
