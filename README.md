@@ -12,9 +12,9 @@ from net ninja's YT course
 
 ## file structure
 
-server.js --> userRoute --> userController --> userModel
-	      --> workRoute --> reqAuth middleware
-                        --> workController --> workModel
+    server.js --> userRoute --> userController --> userModel
+            --> workRoute --> reqAuth middleware
+                            --> workController --> workModel
 
   
 ## Model
